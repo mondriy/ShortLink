@@ -1,0 +1,4 @@
+com/example/shortlink/test/BuildConfig.java
+ com.example.shortlink.test.BuildConfig
+com/example/shortlink/ExampleInstrumentedTest.java
+ com.example.shortlink.ExampleInstrumentedTest

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/blackout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="#000000"
+        android:elevation="3dp"
+        android:alpha="0"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:src="@drawable/ic_head">
+
+    </ImageView>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_centerInParent="true"
+        app:shapeAppearance="@style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Year"
+        android:hint="@string/label"
+        app:boxStrokeColor="@color/black"
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black"
+        android:textColor="@color/black"
+        app:endIconMode="clear_text"
+        app:errorEnabled="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textField"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/containedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/outlinedTextField"
+        android:layout_marginTop="50dp"
+        android:paddingVertical="16dp"
+        android:paddingHorizontal="60dp"
+        android:layout_centerInParent="true"
+        android:text="Short"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/sea"
+        app:shapeAppearance="@style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Year" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="3dp">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/qr_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="16dp"
+            app:srcCompat="@drawable/ic_baseline_qr_code_scanner_24"
+            app:backgroundTint="@color/coral"
+            app:tint="@color/white"
+            tools:ignore="VectorDrawableCompat" />
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="4dp">
+        <include layout="@layout/fragment_bottom_history"></include>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</RelativeLayout>
