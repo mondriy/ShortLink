@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\ShortLinkApp\\ShortLinkClient\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
+            "outputFile": "E:\\ShortLink\\ShortLinkClient\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ты дома\\.gradle\\caches\\transforms-2\\files-2.1\\93ce5043003e92a8fc2ec1f92f61cd06\\jetified-zxing-android-embedded-3.4.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "source": "C:\\Users\\Ты дома\\.gradle\\caches\\transforms-2\\files-2.1\\db50f01944590625c86459f2611724a0\\jetified-zxing-android-embedded-3.4.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

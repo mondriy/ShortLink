@@ -286,15 +286,15 @@ public class MainActivity extends AppCompatActivity implements RecycleView.OnNot
     }
 
     @Override
-    public void onNoteClick(String urlFromHistory) {
+    public void onNoteClick(String urlFromHistory, String urlOriginalFromHistory) {
 
         ClipboardManager clipboard = (ClipboardManager)getSystemService(CLIPBOARD_SERVICE);
         ClipData clip = ClipData.newPlainText("", urlFromHistory);
         clipboard.setPrimaryClip(clip);
 
-        Toast toast = Toast.makeText(getApplicationContext(),
-                "Ссылка скопирована!", Toast.LENGTH_SHORT);
-        toast.show();
+        Url.setUrl(urlFromHistory);
+        Url.setOriginalUrl(urlOriginalFromHistory);
+        openQRActivity();
     }
 
 }

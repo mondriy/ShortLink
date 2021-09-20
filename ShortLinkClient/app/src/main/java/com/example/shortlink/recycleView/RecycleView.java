@@ -24,9 +24,6 @@ public class RecycleView extends RecyclerView.Adapter<RecycleView.ViewHolder> im
     private OnNoteListener mOnNoteListener;
     private Context context;
 
-    private RecyclerView recyclerView;
-    private TextView emptyView;
-
     private UrlDB urlDB;
     private SQLiteDatabase database;
 
@@ -74,12 +71,12 @@ public class RecycleView extends RecyclerView.Adapter<RecycleView.ViewHolder> im
 
         @Override
         public void onClick(View v) {
-            onNoteListener.onNoteClick(shortUrl.getText().toString());
+            onNoteListener.onNoteClick(shortUrl.getText().toString(), originalUrl.getText().toString());
         }
     }
 
     public interface OnNoteListener {
-        void onNoteClick(String urlFromHistory);
+        void onNoteClick(String urlFromHistory, String urlOriginalFromHistory);
     }
 
     @Override

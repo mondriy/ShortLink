@@ -77,7 +77,9 @@ public class QRActivity extends AppCompatActivity {
         else if (URLUtil.isHttpsUrl(s)) {
             newS = s.replaceAll("https://", "");
         }
-        newS = newS.substring(0, newS.indexOf("/"));
+        if (newS.indexOf("/") != -1) {
+            newS = newS.substring(0, newS.indexOf("/"));
+        }
         if (newS.substring(0,4).equals("www.") && newS.length() > 4) {
             newS = newS.substring(4, newS.length() - 1);
         }

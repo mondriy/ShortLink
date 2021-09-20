@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\ShortLinkApp\\ShortLinkClient\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ro\\values-ro.xml",
+            "outputFile": "E:\\ShortLink\\ShortLinkClient\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ro\\values-ro.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\Ты дома\\.gradle\\caches\\transforms-2\\files-2.1\\db50f01944590625c86459f2611724a0\\jetified-zxing-android-embedded-3.4.0\\res\\values-ro\\values-ro.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,166,275",
+                        "endColumns": "58,51,108,116",
+                        "endOffsets": "109,161,270,387"
+                    },
+                    "to": {
+                        "startLines": "31,32,33,34",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "3036,3095,3147,3256",
+                        "endColumns": "58,51,108,116",
+                        "endOffsets": "3090,3142,3251,3368"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Ты дома\\.gradle\\caches\\transforms-2\\files-2.1\\c560b8721f05ca12656603dd382025ab\\core-1.3.1\\res\\values-ro\\values-ro.xml",
                     "from": {
@@ -18,23 +35,6 @@
                         "startOffsets": "2935",
                         "endColumns": "100",
                         "endOffsets": "3031"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Ты дома\\.gradle\\caches\\transforms-2\\files-2.1\\93ce5043003e92a8fc2ec1f92f61cd06\\jetified-zxing-android-embedded-3.4.0\\res\\values-ro\\values-ro.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,114,166,275",
-                        "endColumns": "58,51,108,116",
-                        "endOffsets": "109,161,270,387"
-                    },
-                    "to": {
-                        "startLines": "31,32,33,34",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "3036,3095,3147,3256",
-                        "endColumns": "58,51,108,116",
-                        "endOffsets": "3090,3142,3251,3368"
                     }
                 },
                 {
