@@ -55,7 +55,7 @@
 31-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Ты дома\.gradle\caches\transforms-2\files-2.1\db50f01944590625c86459f2611724a0\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:43:9-33
 32
 33    <application
-33-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:7:5-32:19
+33-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:7:5-35:19
 34        android:allowBackup="true"
 34-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:8:9-35
 35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -69,55 +69,68 @@
 39-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:11:9-54
 40        android:supportsRtl="true"
 40-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:12:9-35
-41        android:testOnly="true"
-42        android:theme="@style/Theme.ShortLink" >
-42-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:13:9-47
-43        <activity
-43-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:14:9-22:20
-44            android:name="com.example.shortlink.SplashScreen"
-44-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:15:13-41
-45            android:theme="@style/SplashTheme" >
-45-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:16:13-47
-46            <intent-filter>
-46-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:17:13-21:29
-47                <action android:name="android.intent.action.MAIN" />
-47-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:18:17-69
-47-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:18:25-66
-48
-49                <category android:name="android.intent.category.LAUNCHER" />
-49-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:20:17-77
-49-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:20:27-74
-50            </intent-filter>
-51        </activity>
-52        <activity
-52-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:23:9-25:52
-53            android:name="com.example.shortlink.QRActivity"
-53-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:24:13-39
-54            android:screenOrientation="portrait" />
-54-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:25:13-49
-55        <activity
-55-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:26:9-31:20
-56            android:name="com.example.shortlink.MainActivity"
-56-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:27:13-41
-57            android:screenOrientation="portrait"
-57-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:28:13-49
-58            android:windowSoftInputMode="adjustNothing" >
-58-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:29:13-56
-59        </activity>
-60        <activity
-60-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Ты дома\.gradle\caches\transforms-2\files-2.1\db50f01944590625c86459f2611724a0\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:46:9-52:63
-61            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-61-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Ты дома\.gradle\caches\transforms-2\files-2.1\db50f01944590625c86459f2611724a0\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:47:13-74
-62            android:clearTaskOnLaunch="true"
-62-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Ты дома\.gradle\caches\transforms-2\files-2.1\db50f01944590625c86459f2611724a0\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:48:13-45
-63            android:screenOrientation="sensorLandscape"
-63-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Ты дома\.gradle\caches\transforms-2\files-2.1\db50f01944590625c86459f2611724a0\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:49:13-56
-64            android:stateNotNeeded="true"
-64-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Ты дома\.gradle\caches\transforms-2\files-2.1\db50f01944590625c86459f2611724a0\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:50:13-42
-65            android:theme="@style/zxing_CaptureTheme"
-65-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Ты дома\.gradle\caches\transforms-2\files-2.1\db50f01944590625c86459f2611724a0\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:51:13-54
-66            android:windowSoftInputMode="stateAlwaysHidden" />
-66-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Ты дома\.gradle\caches\transforms-2\files-2.1\db50f01944590625c86459f2611724a0\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:52:13-60
-67    </application>
-68
-69</manifest>
+41        android:theme="@style/Theme.ShortLink" >
+41-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:13:9-47
+42        <activity
+42-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:14:9-21:20
+43            android:name="com.example.shortlink.SplashScreen"
+43-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:15:13-41
+44            android:theme="@style/SplashTheme" >
+44-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:16:13-47
+45            <intent-filter>
+45-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:17:13-20:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:18:17-69
+46-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:18:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:19:17-77
+48-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:19:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:22:9-24:52
+52            android:name="com.example.shortlink.QRActivity"
+52-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:23:13-39
+53            android:screenOrientation="portrait" />
+53-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:24:13-49
+54        <activity
+54-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:25:9-34:20
+55            android:name="com.example.shortlink.MainActivity"
+55-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:26:13-41
+56            android:screenOrientation="portrait"
+56-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:27:13-49
+57            android:windowSoftInputMode="adjustNothing" >
+57-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:28:13-56
+58            <intent-filter>
+58-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:29:13-33:29
+59                <action android:name="android.intent.action.SEND" />
+59-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:30:17-69
+59-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:30:25-66
+60
+61                <category android:name="android.intent.category.DEFAULT" />
+61-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:31:17-76
+61-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:31:27-73
+62
+63                <data android:mimeType="text/plain" />
+63-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:32:17-55
+63-->E:\ShortLink\ShortLinkClient\app\src\main\AndroidManifest.xml:32:23-52
+64            </intent-filter>
+65        </activity>
+66        <activity
+66-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Ты дома\.gradle\caches\transforms-2\files-2.1\db50f01944590625c86459f2611724a0\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:46:9-52:63
+67            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+67-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Ты дома\.gradle\caches\transforms-2\files-2.1\db50f01944590625c86459f2611724a0\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:47:13-74
+68            android:clearTaskOnLaunch="true"
+68-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Ты дома\.gradle\caches\transforms-2\files-2.1\db50f01944590625c86459f2611724a0\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:48:13-45
+69            android:screenOrientation="sensorLandscape"
+69-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Ты дома\.gradle\caches\transforms-2\files-2.1\db50f01944590625c86459f2611724a0\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:49:13-56
+70            android:stateNotNeeded="true"
+70-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Ты дома\.gradle\caches\transforms-2\files-2.1\db50f01944590625c86459f2611724a0\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:50:13-42
+71            android:theme="@style/zxing_CaptureTheme"
+71-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Ты дома\.gradle\caches\transforms-2\files-2.1\db50f01944590625c86459f2611724a0\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:51:13-54
+72            android:windowSoftInputMode="stateAlwaysHidden" />
+72-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Ты дома\.gradle\caches\transforms-2\files-2.1\db50f01944590625c86459f2611724a0\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:52:13-60
+73    </application>
+74
+75</manifest>

@@ -56,6 +56,7 @@ import retrofit2.Response;
 public class MainActivity extends AppCompatActivity implements RecycleView.OnNoteListener {
 
     private Intent intent;
+    private Intent shareIntent;
     private Post post;
 
     private Context context;
@@ -83,7 +84,6 @@ public class MainActivity extends AppCompatActivity implements RecycleView.OnNot
     private FrameLayout blackout;
 
     private AnimatorSet animationSet;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -204,6 +204,21 @@ public class MainActivity extends AppCompatActivity implements RecycleView.OnNot
                 openQRActivity();
             }
         });
+
+        shareIntent = getIntent();
+        String action = shareIntent.getAction();
+        String type = shareIntent.getType();
+
+        if (Intent.ACTION_SEND.equals(action) && type != null) {
+            if ("text/plain".equals(type)) {
+                String sharedText = shareIntent.getStringExtra(Intent.EXTRA_TEXT);
+                if (sharedText != null) {
+                    editUrl.setText(sharedText);
+                    toShort.performClick();
+                }
+            }
+        }
+
     }
 
     public void openQRActivity() {
@@ -241,6 +256,7 @@ public class MainActivity extends AppCompatActivity implements RecycleView.OnNot
                         anim.setDuration(300);
                         toQr.startAnimation(anim);
                         rw.notifyDataSetChanged();
+                        openQRActivity();
                     }
                     @Override
                     public void onFailure(@NonNull Call<Get> call, @NonNull Throwable t) {
