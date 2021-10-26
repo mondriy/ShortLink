@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\ShortLink\\ShortLinkClient\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
+            "outputFile": "E:\\Projects\\ShortLink\\ShortLinkClient\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Ты дома\\.gradle\\caches\\transforms-2\\files-2.1\\4f9c7f78c15bb692cf0895b881aafbad\\appcompat-1.2.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
